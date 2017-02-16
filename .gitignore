@@ -1,0 +1,15 @@
+:#defaults
+*.DS_Store
+
+#Java
+#compiled class file
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
