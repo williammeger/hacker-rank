@@ -13,9 +13,8 @@ public class Solution {
     
         Scanner scan = new Scanner(System.in);
 
-        int myInt = scan.nextInt()
-        double myDouble = scan.nextDouble();
-        scan.nextLine();
+        int myInt = Integer.parseInt(scan.nextLine());
+        double myDouble = Double.parseDouble(scan.nextLine());
         String myString = scan.nextLine();
     
         System.out.println(i + myInt);
