@@ -11,7 +11,7 @@ public class Solution {
             }
         }
     }  
-    public static void printEvenOdd (String s) {
+    public static void printEvenOrOdd (String s) {
       StringBuffer even = new StringBuffer();
       StringBuffer odd = new StringBuffer();
       for (int i = 0; i < s.length(); i++) {
