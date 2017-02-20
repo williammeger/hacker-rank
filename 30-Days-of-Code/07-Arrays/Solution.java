@@ -12,5 +12,8 @@ public class Solution {
             arr[i] = in.nextInt();
         }
         in.close();
+        for (int k = arr.length - 1 ; k >= 0; k--) {
+        System.out.print(arr[k] + " ");
+      }
     }
 }
